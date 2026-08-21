@@ -35,6 +35,9 @@ RC - память 47k, 100uF
 Силовой ключ 2N7002, 100 Ohm, 510k
 Нагрузка 12V LED strip
 
+### Симуляция
+Вот [здесь](Simulation.md) можете ознакомится с объяснением и симуляцией каждого блока "Ночника"
+
 ## Статус
 Прототип собран и протестирован, печатная плата заказана
 
@@ -71,6 +74,9 @@ Ramp Generator NE555, BC807, 1k, 10k, 100nF
 PWM Comparator LM358
 Power Switch 2N7002, 100 Ohm, 510k
 Load 12V LED strip
+
+### Simulation
+[Here](Simulation.md) you can familiarize yourself with the explanation and simulation of each block of the “Night Light”.
 
 ## Status
 The prototype has been assembled and tested, the printed circuit board has been ordered.
