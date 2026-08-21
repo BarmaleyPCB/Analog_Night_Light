@@ -153,6 +153,47 @@ $K_u = 1 + \frac{10000}{10000} = 2$
 
 <img width="893" height="503" alt="image" src="https://github.com/user-attachments/assets/8ce23cc6-2f14-4765-b33a-ffcd3133433f" />
 
+Формула для расчёта частоты NE555 берём прямо из [документации](https://static.chipdip.ru/lib/034/DOC032034492.pdf)
+
+$f \approx \frac{1.44}{(R_A + R_B) \times C_t}$
+
+В этой формуле :
+
+$f$ - частота сигнала
+
+$R_A$- резистор R1 = 1000Ω
+
+$R_B$ - резистор R3 = 10000Ω
+
+$C_t$ - время задающий конденсатор С1 = 0.0000000015 F
+
+$f \approx \frac{1.44}{(1000 + 10000) \times 0.0000000015} = \frac{1.44}{11000 \times 15^{-9}} \approx 1509\ \text{Гц}$
+
+### Анализ переходных процессов
+
+<img width="893" height="503" alt="image" src="https://github.com/user-attachments/assets/762112a8-be38-4d70-9054-a95d56e1f762" />
+
+<img width="1913" height="902" alt="image" src="https://github.com/user-attachments/assets/9ca54b1e-1395-431c-9dbc-cb3acee3e3f2" />
+
+Красным показан сигнал с PR1
+
+### Для любителей классики 
+<img width="1302" height="867" alt="image" src="https://github.com/user-attachments/assets/2eb70e74-830b-4730-b213-9c859929f95b" />
+
+## ШИМ-Компаратор и комутация
+
+Финальный блок аналогвого ночника!
+
+
+
+
+
+
+
+
+
+
+
 
 
 
