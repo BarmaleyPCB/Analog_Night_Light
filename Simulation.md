@@ -218,6 +218,14 @@ $f \approx \frac{1.44}{(1000 + 10000) \times 0.0000000015} = \frac{1.44}{11000 \
 
 ### Увеличение скважности 
 
+<img width="556" height="447" alt="image" src="https://github.com/user-attachments/assets/55c770fb-828a-4746-8f12-540de0d03edb" />
+
+### Спад скважности 
+
+
+
+
+
 
 
 
