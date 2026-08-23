@@ -23,16 +23,26 @@ A fully analog night light with adjustable activation in the dark and smooth lig
 ## Структурная схема
 ![Блок-схема устройства]<img width="970" height="1061" alt="i" src="https://github.com/user-attachments/assets/1d3f8e8a-38b8-451b-85e0-d86f2d07c3c3" />
 
-## Перечень элементов
+## Текстовый блок
+
 Силовая часть LM317, 12V -> 5V
+
 Пиродатчик AM312
+
 Блок темноты GL5537, LM358, 100k pot
+
 Монтажное И 2x BC817, 10k resistors
+
 RC - память 47k, 100uF
+
 Усилитель LM358, 2x 1k (gain = 2)
+
 Генератор пилы NE555, BC807, 1k, 10k, 100nF
+
 ШИМ компаратор LM358
+
 Силовой ключ 2N7002, 100 Ohm, 510k
+
 Нагрузка 12V LED strip
 
 ### Симуляция
@@ -65,14 +75,23 @@ RC - память 47k, 100uF
 
 ## Block Components
 Power LM317, 12V -> 5V
+
 Motion Sensor AM312
+
 Light Sensor GL5537, LM358, 100k pot
+
 AND Gate 2x BC817, 10k resistors
+
 RC Circuit 47k, 100uF
+
 Amplifier LM358, 2x 1k (gain = 2)
+
 Ramp Generator NE555, BC807, 1k, 10k, 100nF
+
 PWM Comparator LM358
+
 Power Switch 2N7002, 100 Ohm, 510k
+
 Load 12V LED strip
 
 ### Simulation
