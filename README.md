@@ -74,7 +74,7 @@ RC - память 47k, 100uF
 7. MOSFET switches the 12V LED strip.
 
 ## Block Diagram
-![Block Diagram]<img width="970" height="1017" alt="i (1)" src="https://github.com/user-attachments/assets/1bb71fd0-0665-44b9-8f39-d9f2b1522ba8" />
+[Block Diagram]<img width="970" height="1017" alt="i (1)" src="https://github.com/user-attachments/assets/1bb71fd0-0665-44b9-8f39-d9f2b1522ba8" />
 
 
 ## Block Components
