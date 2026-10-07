@@ -14,14 +14,15 @@ A fully analog night light with adjustable activation in the dark and smooth lig
 
 1. Датчик AM312 PIR обнаруживает движение.
 2. Фоторезистор + компаратор проверяют, не потемнел ли он.
-3. Транзистор И затвор объединяют оба сигнала.
+3. Транзисторное И объединяют оба сигнала.
 4. RC-схема создает медленно изменяющееся напряжение для плавного затемнения.
-5. NE555 генерирует линейный сигнал для ШИМ.
-6. Компаратор LM358 генерирует ШИМ-сигнал.
+5. NE555 генерирует пилообразный сигнал.
+6. Компаратор LM393 генерирует ШИМ-сигнал.
 7. MOSFET переключает светодиодную ленту напряжением 12 В.
 
 ## Структурная схема
-![Блок-схема устройства]<img width="970" height="1061" alt="i" src="https://github.com/user-attachments/assets/1d3f8e8a-38b8-451b-85e0-d86f2d07c3c3" />
+<img width="772" height="442" alt="Блок-схема ночника drawio" src="https://github.com/user-attachments/assets/81ce2aeb-d739-4148-a335-5a4db56e940b" />
+
 
 ## Текстовый блок
 
@@ -29,19 +30,19 @@ A fully analog night light with adjustable activation in the dark and smooth lig
 
 Пиродатчик AM312
 
-Блок темноты GL5537, LM358, 100k pot
+Блок темноты GL5537, LM358.
 
-Монтажное И 2x BC817, 10k resistors
+Монтажное И 2x BC817.
 
 RC - память 47k, 100uF
 
 Усилитель LM358, 2x 1k (gain = 2)
 
-Генератор пилы NE555, BC807, 1k, 10k, 100nF
+Генератор пилы NE555
 
-ШИМ компаратор LM358
+ШИМ компаратор LM393
 
-Силовой ключ 2N7002, 100 Ohm, 510k
+Силовой ключ 2N7002
 
 Нагрузка 12V LED strip
 
@@ -67,14 +68,16 @@ RC - память 47k, 100uF
 
 1. AM312 PIR sensor detects motion.
 2. Photoresistor + comparator check if it is dark.
-3. Transistor AND gate combines both signals.
+3. A transistor AND gate combines both signals.
 4. RC circuit creates a slowly changing voltage for smooth dimming.
-5. NE555 generates a ramp signal for PWM.
-6. LM358 comparator generates PWM signal.
+5. The NE555 generates a sawtooth signal.
+6. LM393 comparator generates PWM signal.
 7. MOSFET switches the 12V LED strip.
 
 ## Block Diagram
-[Block Diagram]<img width="970" height="1017" alt="i (1)" src="https://github.com/user-attachments/assets/1bb71fd0-0665-44b9-8f39-d9f2b1522ba8" />
+<img width="792" height="441" alt="Блок-схема ночника ENG" src="https://github.com/user-attachments/assets/4459ea39-d300-4188-9355-0ea4fc222cdd" />
+
+
 
 
 ## Block Components
@@ -82,19 +85,19 @@ Power LM317, 12V -> 5V
 
 Motion Sensor AM312
 
-Light Sensor GL5537, LM358, 100k pot
+Light Sensor GL5537, LM358.
 
-AND Gate 2x BC817, 10k resistors
+AND Gate 2x BC817.
 
 RC Circuit 47k, 100uF
 
 Amplifier LM358, 2x 1k (gain = 2)
 
-Ramp Generator NE555, BC807, 1k, 10k, 100nF
+Ramp Generator NE555.
 
-PWM Comparator LM358
+PWM Comparator LM393
 
-Power Switch 2N7002, 100 Ohm, 510k
+Power Switch 2N7002.
 
 Load 12V LED strip
 
