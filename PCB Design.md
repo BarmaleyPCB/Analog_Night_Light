@@ -6,7 +6,8 @@
 
 Объяснять и описывать каждый блок я не буду, так как это уже сделано [тут](Simulation.md)
 
-[Принципиальная схема в PDF](https://github.com/user-attachments/files/31415455/Shematic.PDF.PDF)
+[Принципиальная схема в PDF](https://github.com/user-attachments/files/33498607/Schematic.diagram.PDF)
+
 ## Сама принципиальная схема
 <img width="1352" height="908" alt="Снимок экрана 2026-08-25 130828" src="https://github.com/user-attachments/assets/eb3d42e9-f220-421e-aa76-606f9c1449f9" />
 Так как скриншот из самого САПР не очень хорошего качества я прикрепил файл PDF выше
@@ -46,7 +47,8 @@
 <img width="996" height="760" alt="3D b" src="https://github.com/user-attachments/assets/44ba1171-e65c-4c88-a30c-bcba230be0a7" />
 
 
-[PDF файл с 3D видом и принципиальной схемой](https://github.com/user-attachments/files/31417628/3D.PDF)
+[PDF файл с 3D видом и принципиальной схемой](https://github.com/user-attachments/files/33498651/PDF.PDF)
+
 
 ## Компоновка элементов
 Компоновка печатной платы соответствует лучшим правилам проектирования. Все элементы определённого блока сгруппированы в одном месте.
@@ -122,7 +124,8 @@ PR1 выведен на центр платы для удобства испол
 ## Крепёжные отверстия 
 На печатной плате предусмотрены 4 крепёжных отверстия диаметром 3.2 мм под винты M3. На момент написания этого документа у меня нет корпуса под устройство. Но как он появится я его продемонстрирую отдельным документом.
 ### Проект
-Вот весь [проект](Night_Light_Altium.zip) Altium в котором вы сможете найти всё что захотите включая файлы для производства
+Вот весь [проект](https://github.com/user-attachments/files/33498768/GitHub_.zip)
+ Altium в котором вы сможете найти всё что захотите включая файлы для производства
 
 ## PCB Layout
 
@@ -134,7 +137,8 @@ I will start this document with the schematic redrawn from Multisim. I redrew it
 
 I will not explain and describe each block here, as it has already been done [here](Simulation.md).
 
-[Schematic in PDF](https://github.com/user-attachments/files/31415455/Shematic.PDF.PDF)
+[Schematic in PDF](https://github.com/user-attachments/files/33498848/Schematic.diagram.PDF)
+
 
 ## Schematic Diagram
 
@@ -179,7 +183,8 @@ The PCB has a T-shape specifically so that the LED strip does not illuminate the
 
 <img width="996" height="760" alt="3D b" src="https://github.com/user-attachments/assets/44ba1171-e65c-4c88-a30c-bcba230be0a7" />
 
-[PDF file with 3D view and schematic](https://github.com/user-attachments/files/31417628/3D.PDF)
+[PDF file with 3D view and schematic](https://github.com/user-attachments/files/33498877/PDF.PDF)
+
 
 ## Component Placement
 
@@ -259,7 +264,8 @@ The PCB has 4 mounting holes with a diameter of 3.2 mm for M3 screws. At the tim
 
 ### Project
 
-Here is the entire Altium [project](Night_Light_Altium.zip) where you can find everything you want, including production files.
+Here is the entire Altium [project](https://github.com/user-attachments/files/33498919/GitHub_.zip)
+ where you can find everything you want, including production files.
 
 
 
