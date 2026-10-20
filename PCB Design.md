@@ -114,11 +114,11 @@ PR1 выведен на центр платы для удобства испол
 
 | Test-point | Сигнал |
 |:---|:---|
-| TP1 | +5В |
-| TP2 | Выход AM312 |
-| TP3 | Выход датчика темноты |
-| TP4 | Пилообразный сигнал |
-| TP5 | Выход RC-цепи |
+| TP1 | Выход датчика темноты |
+| TP2 | Выход RC-цепи |
+| TP3 | Выход датчика AM312 |
+| TP4 | +5 |
+| TP5 | Пилообразный сигнал |
 | TP6 | Затвор MOSFET |
 
 ## Крепёжные отверстия 
@@ -251,11 +251,11 @@ I added test points to my device. They were very helpful during testing and asse
 
 | Test-point | Signal |
 |:---|:---|
-| TP1 | +5V |
-| TP2 | AM312 output |
-| TP3 | Light sensor output |
-| TP4 | Ramp signal |
-| TP5 | RC circuit output |
+| TP1 | Darkness sensor output |
+| TP2 | RC circuit output |
+| TP3 | AM312 sensor output|
+| TP4 | +5 |
+| TP5 | RAMP signal |
 | TP6 | MOSFET gate |
 
 ## Mounting Holes
