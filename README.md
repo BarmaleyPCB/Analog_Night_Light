@@ -54,7 +54,7 @@ RC - память 47k, 100uF
 Вот [здесь](HARDWAY.md) можете увидеть тот самый прототип печатной платы и саму печатную плата. Заказывалась она на PCB Russia ( представительство JLCPCB в России ) и на Резоните для сравнения
 
 ## Статус
-Прототип собран и протестирован, печатная плата заказана
+Прототип собран и протестирован, печатная плата приехала и собрана.
 
 ## Features
 
@@ -109,4 +109,4 @@ You can find the PCB topology for the analog “Night Light” [here](PCB%20Desi
 [Here](HARDWAY.md) you can see the very prototype of the printed circuit board and the printed circuit board itself. It was ordered from PCB Russia (the representative office of JLCPCB in Russia) and from Rezonite for comparison.
 
 ## Status
-The prototype has been assembled and tested, the printed circuit board has been ordered.
+The prototype has been assembled and tested; the printed circuit board has arrived and been assembled.
