@@ -63,11 +63,11 @@ A quick reminder of the test points:
 
 | Test-point | Signal |
 |:---|:---|
-| TP1 | +5V |
-| TP2 | AM312 output |
-| TP3 | Light sensor output |
-| TP4 | Ramp signal |
-| TP5 | RC circuit output |
+| TP1 | Darkness sensor output |
+| TP2 | RC circuit output |
+| TP3 | AM312 sensor output|
+| TP4 | +5 |
+| TP5 | RAMP signal |
 | TP6 | MOSFET gate |
 
 ## Breadboard
