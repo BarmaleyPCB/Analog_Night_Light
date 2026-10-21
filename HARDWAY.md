@@ -113,6 +113,11 @@ https://github.com/user-attachments/assets/7b0deda1-3c4d-4122-befd-ddaa311a932d
 
 https://github.com/user-attachments/assets/0acb130c-9748-47a6-9404-83e3e99bafca
 
+## Заключение
+
+Проект успешно пройден по всем этапам: от симуляции в Multisim до сборки и отладки реального устройства на печатной плате. Полностью аналоговая схема (без единой строки кода) доказала свою работоспособность. Все ключевые блоки - датчики, логика, генератор пилы, ШИМ и силовой ключ — работают стабильно и согласованно.
+
+Этот прототип стал отличным примером того, как классическая схемотехника решает задачи, для которых сегодня часто используют микроконтроллеры.
 
 # Hardware Prototype
 
@@ -251,6 +256,11 @@ https://github.com/user-attachments/assets/7b0deda1-3c4d-4122-befd-ddaa311a932d
 https://github.com/user-attachments/assets/0acb130c-9748-47a6-9404-83e3e99bafca
 
 
+## Conclusion
+
+The project has been successfully completed through all its stages: from simulation in Multisim to the assembly and debugging of the actual device on a printed circuit board. The entirely analog circuit—containing not a single line of code—has proven to be fully functional. All key components—sensors, logic circuitry, the sawtooth wave generator, the PWM stage, and the power switch—operate reliably and in coordination.
+
+This prototype serves as an excellent example of how classical circuit design can address tasks for which microcontrollers are frequently used today.
 
 
 
