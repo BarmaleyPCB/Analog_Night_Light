@@ -110,7 +110,7 @@ PR1 выведен на центр платы для удобства испол
 <img width="1347" height="904" alt="image" src="https://github.com/user-attachments/assets/449b085d-3d0a-4cf1-a8a5-773a9e7d56eb" />
 
 ## Тест - поинты
-Для моего устройства я вывел TP. Они здорово помогли при тестах и монтаже когда исправлялись ошибки и с них можно получить интересные сигналы. Их я показал на этапе [Симуляции](Simulation.md) и в физическом Прототипе устройства.
+Для моего устройства я вывел TP. Они здорово помогли при тестах и монтаже когда исправлялись ошибки и с них можно получить интересные сигналы. Их я показал на этапе [Симуляции](Simulation.md) и в физическом [Прототипе устройства](HARDWAY.md).
 
 | Test-point | Сигнал |
 |:---|:---|
@@ -247,7 +247,7 @@ PR1 is placed in the center of the board for ease of use and placement.
 
 ## Test Points
 
-I added test points to my device. They were very helpful during testing and assembly when errors were being fixed, and you can get interesting signals from them. I showed them in the [Simulation](Simulation.md) stage and in the physical Prototype of the device.
+I added test points to my device. They were very helpful during testing and assembly when errors were being fixed, and you can get interesting signals from them. I showed them in the [Simulation](Simulation.md) stage and in the physical [Prototype of the device](HARDWAY.md).
 
 | Test-point | Signal |
 |:---|:---|
