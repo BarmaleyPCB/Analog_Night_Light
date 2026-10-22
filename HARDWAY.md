@@ -42,7 +42,7 @@ https://github.com/user-attachments/assets/ed6206b0-8b9e-4b82-a8dd-8758b66b2553
 <img width="1920" height="1080" alt="15da9e50-62af-43cd-a03f-d77c420215b1" src="https://github.com/user-attachments/assets/d07ec6db-a291-4297-8a31-20f027ef5574" />
 <img width="1920" height="1080" alt="9df0a628-0125-49e9-bfef-76b5a593ef13" src="https://github.com/user-attachments/assets/0136f479-880c-471a-b6ad-6251f77a50e8" />
 
-Вообще ограничение я ставил 150 мкА, но когда игрался с ограничением по току не стал менять со 100 мкА
+Вообще ограничение я ставил 150 мА, но когда игрался с ограничением по току не стал менять со 100 мА
 
 ## Коммутация
 
@@ -64,7 +64,7 @@ https://github.com/user-attachments/assets/e4a824a5-5326-4761-bd0c-d3a4cc7636f6
 
 ### Снятие сигналов с Тест - поинтов
 
-В некоторых случаях 1 квадрат на осциллограмме соответствует 1/V. Обращайте внимание на развёртку осциллографа.
+Снятие значений происходит с выставленными 1/V и 1/S. Так что обращайте внимание на развёртку осцилографа
 ## TP1
 
 Снятие сигнала с выхода Датчика темноты
@@ -186,7 +186,7 @@ Photo of the LED strip and readings from the laboratory power supply when the LE
 
 <img width="1920" height="1080" alt="9df0a628-0125-49e9-bfef-76b5a593ef13" src="https://github.com/user-attachments/assets/0136f479-880c-471a-b6ad-6251f77a50e8" />
 
-Actually, I set the current limit to 150 µA, but when I was playing with the current limit, I did not change it from 100 µA.
+Actually, I set the current limit to 150 mA, but when I was playing with the current limit, I did not change it from 100 mA.
 
 ## Switching
 
@@ -206,7 +206,7 @@ Here is the long-awaited board. Before describing it, I should mention that it t
 
 ### Capturing Signals from Test Points
 
-In some cases, one square on the oscilloscope waveform corresponds to 1/V. Pay attention to the oscilloscope’s scale settings.
+Readings are taken with 1/V and 1/S settings applied. Therefore, pay attention to the oscilloscope's sweep settings.
 ## TP1
 
 Capturing the signal from the output of the darkness sensor
