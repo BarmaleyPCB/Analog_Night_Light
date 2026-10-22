@@ -10,15 +10,10 @@ A fully analog night light with adjustable activation in the dark and smooth lig
 - ШИМ-регулировка яркости (~ 2000 Гц)
 - Нет микроконтроллера, полностью аналоговый дизайн
 
-## Как это работает
+## Устройство
 
-1. Датчик AM312 PIR обнаруживает движение.
-2. Фоторезистор + компаратор проверяют, не потемнел ли он.
-3. Транзисторное И объединяют оба сигнала.
-4. RC-схема создает медленно изменяющееся напряжение для плавного затемнения.
-5. NE555 генерирует пилообразный сигнал.
-6. Компаратор LM393 генерирует ШИМ-сигнал.
-7. MOSFET переключает светодиодную ленту напряжением 12 В.
+<img width="1080" height="1920" alt="image" src="https://github.com/user-attachments/assets/2228dc04-a7d9-46e6-980b-871a9f0969bd" />
+
 
 ## Структурная схема
 <img width="772" height="442" alt="Блок-схема ночника drawio" src="https://github.com/user-attachments/assets/81ce2aeb-d739-4148-a335-5a4db56e940b" />
@@ -26,25 +21,17 @@ A fully analog night light with adjustable activation in the dark and smooth lig
 
 ## Текстовый блок
 
-Силовая часть LM317, 12V -> 5V
+Силовая часть устройства это LM317 которая преобразует из 12 V в 5 V.
 
-Пиродатчик AM312
+Датчик темноты - это компаратор LM393 который сравнивает значения с делителя напряжения из фоторезистора и резистора и потенциометра который подстраивает порог срабатывания темноты
 
-Блок темноты GL5537, LM358.
+2-И из транзисторов который сравнивает сигналы с AM312 и с блока датчика темноты. На выходе стоит RC-цепь для плавного розжига ленты
 
-Монтажное И 2x BC817.
+ОУ LM358 с коэффициентом усиления 2 ( усиления сигнала после RC-цепи )
 
-RC - память 47k, 100uF
+Генератор пилообразных сигналов на NE555
 
-Усилитель LM358, 2x 1k (gain = 2)
-
-Генератор пилы NE555
-
-ШИМ компаратор LM393
-
-Силовой ключ 2N7002
-
-Нагрузка 12V LED strip
+ШИМ - Компаратор который сравнивает пилу и сигнал с 2-И
 
 ### Симуляция
 Вот [здесь](Simulation.md) можете ознакомится с объяснением и симуляцией каждого блока "Ночника"
@@ -64,15 +51,10 @@ RC - память 47k, 100uF
 - PWM brightness control (~300 Hz)
 - No MCU, fully analog design
 
-## How It Works
+## Device
 
-1. AM312 PIR sensor detects motion.
-2. Photoresistor + comparator check if it is dark.
-3. A transistor AND gate combines both signals.
-4. RC circuit creates a slowly changing voltage for smooth dimming.
-5. The NE555 generates a sawtooth signal.
-6. LM393 comparator generates PWM signal.
-7. MOSFET switches the 12V LED strip.
+<img width="1080" height="1920" alt="image" src="https://github.com/user-attachments/assets/170ae3c7-5e75-4c75-8cbb-6dfa418d1309" />
+
 
 ## Block Diagram
 <img width="792" height="441" alt="Блок-схема ночника ENG" src="https://github.com/user-attachments/assets/4459ea39-d300-4188-9355-0ea4fc222cdd" />
@@ -81,25 +63,17 @@ RC - память 47k, 100uF
 
 
 ## Block Components
-Power LM317, 12V -> 5V
+The power stage of the device is based on an LM317, which converts 12V to 5V.
 
-Motion Sensor AM312
+The darkness sensor uses an LM393 comparator, which compares the voltage from a divider—consisting of a photoresistor and a fixed resistor—against a threshold set by a potentiometer.
 
-Light Sensor GL5537, LM358.
+An AND gate (implemented using transistors) compares the signal from an AM312 sensor with the output from the darkness sensor circuit. An RC network is placed at the output to ensure a smooth "fade-in" (gradual illumination) of the LED strip.
 
-AND Gate 2x BC817.
+An LM358 operational amplifier, configured with a gain of 2, amplifies the signal following the RC network.
 
-RC Circuit 47k, 100uF
+An NE555 timer is used to generate a sawtooth waveform.
 
-Amplifier LM358, 2x 1k (gain = 2)
-
-Ramp Generator NE555.
-
-PWM Comparator LM393
-
-Power Switch 2N7002.
-
-Load 12V LED strip
+A PWM comparator compares this sawtooth signal with the output from the AND gate.
 
 ### Simulation
 [Here](Simulation.md) you can familiarize yourself with the explanation and simulation of each block of the “Night Light”.
